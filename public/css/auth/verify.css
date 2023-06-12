@@ -1,0 +1,13 @@
+
+.verify{
+    color:#000000
+}
+.verify-title{
+    font-size: 30px !important;
+    font-weight: 600;
+    border-bottom: 1px solid #ffffffa0;
+    line-height: 35px;
+}
+.verify-body{
+    padding:20px 0px;
+}

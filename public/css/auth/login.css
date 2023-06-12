@@ -1,0 +1,30 @@
+body {
+    background-color: #FFDE50;
+    /* color: #FFDE50; */
+}
+.login{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding:30px;
+    width: 400px;
+    margin: auto;
+}
+.login .title{
+    color: #2d2d2d;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+}
+.icon{
+    width: 100px;
+    height:100px;
+    border-radius: 100%;
+    font-size: 80px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #2d2d2d;
+    color: #2d2d2d;
+    margin: 30px auto;
+}

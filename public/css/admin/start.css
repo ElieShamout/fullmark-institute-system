@@ -1,0 +1,12 @@
+.start{
+    height:100vh;
+}
+.start-title{
+    font-size: 50px;
+    height:fit-content;
+    position: relative;
+    padding:0px 50px;
+}
+.notify{
+    font-size: 40px;
+}

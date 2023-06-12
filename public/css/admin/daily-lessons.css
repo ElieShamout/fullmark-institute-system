@@ -1,0 +1,118 @@
+.daily-lessons-content {
+    /* width: 300px ; */
+    width: 60px;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.daily-lessons-list {
+    direction: rtl;
+    overflow-y: scroll;
+    height: 98vh;
+    margin-bottom: 10px;
+}
+.daily-lessons-list ul{
+    direction: ltr;
+}
+
+
+/* width */
+.daily-lessons-list::-webkit-scrollbar {
+    width: 3px !important;
+}
+
+/* Track */
+.daily-lessons-list::-webkit-scrollbar-track {
+    background: #f1f1f1 !important;
+}
+
+/* Handle */
+.daily-lessons-list::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+.daily-lessons-list::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+
+
+.daily-lessons-title {
+    width: 300px;
+    padding: 0 20px;
+    /* width: 300px; */
+    /* margin-left: -240px; */
+    color: rgba(255, 255, 255, 0.722) !important;
+}
+
+.daily-lessons-title .title-text {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.daily-lessons-list .daily-lessons-item {
+    width: 300px;
+    height: 50px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ffffff40;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.daily-lessons-list a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.daily-lessons-btn {
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    transition: transform 0.3s;
+}
+
+.daily-lessons-btn .bi {
+    display: flex;
+    align-items: center;
+}
+
+
+.lesson-item {
+    min-width: 300px;
+    background-color: aliceblue;
+    cursor: pointer;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.lesson-item .date {
+    font-size: 20px;
+    min-width: 65px !important;
+    width: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.date-border-right {
+    border-right: 2px solid rgb(74, 74, 74) !important;
+    margin-left: 5px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    bottom: 0;
+    margin: auto;
+    height: 60%;
+    width: 2px;
+}
+
+.daily-lessons-list .lesson-item:hover {
+    background-color: #ffbf11;
+    color: rgb(25, 25, 25) !important;
+}
